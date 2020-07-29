@@ -19,7 +19,7 @@ const config = {
 		      </div>
 		    </a>
 		  </li>`,
-    links: [{ text: 'Mengapa', link: 'https://mengapa.com' }],
+    links: [{ text: 'Blog', link: 'https://afrijaldzuhri.com' }],
     search: {
       enabled: false,
       indexName: '',
@@ -36,23 +36,23 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Ijul', link: 'https://hasura.io' }],
+    links: [{ text: 'Ijul', link: 'https://notebook.afrijaldzuhri.com' }],
     frontline: false,
     ignoreIndex: true,
     title: '',
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Afrijal Dzuhri Notebook and Mindmap',
+    description: 'Documentation of what I learn',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/afrijaldz/notebook',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: "Afrijal Dzuhri's Notebook",
+      short_name: 'Afrijal',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
